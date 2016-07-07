@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/c_view"
+        android:scrollbars="vertical"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        card_view:cardCornerRadius="6dp"
+        card_view:contentPadding="15dp"
+        android:layout_margin="3dp">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_c_view">
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:id="@+id/title_text"
+                android:text=""
+                style="@style/TextAppearance.AppCompat.Large" />
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp">
+                </ListView>
+            <RelativeLayout
+                android:id="@+id/list_view_empty"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#a1a1a1">
+                <Button
+                    android:id="@+id/list_view_empty_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/empty_view"
+                    android:layout_centerInParent="true"/>
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:id="@+id/avg_text"
+                android:text=""
+                style="@style/TextAppearance.AppCompat.Medium" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

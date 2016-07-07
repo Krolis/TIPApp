@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TIPApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_no_internet_conn">Brak połączenia z internetem</string>
+    <string name="toast_sth_went_wrong">Coś poszło nie tak :(</string>
+    <string name="empty_tap_to_refresh">Tapnij aby odswiezyc</string>
+    <string name="empty_download_data">Pobieram dane</string>
+    <string name="pref_sync">Synchronizuj oceny</string>
+    <string name="pref_sync_summary">Czy chcesz aby aplikacja automatycznie wyszukiwała nowe oceny?</string>
+    <string name="pref_sync_time">Częstotliwość</string>
+    <string name="pref_settings_category">Ustawienia TIP</string>
+    <string name="pref_sync_time_default">6</string>
+    <string name="pref_sync_time_key">pref_sync_time</string>
+    <string name="pref_sync_key">pref_sync</string>
+</resources>

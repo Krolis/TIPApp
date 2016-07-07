@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#a1a1a1">
+    <com.krolis.tipapp.util.RecyclerViewEmptySupport
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/grade_rec_view" />
+    <RelativeLayout
+            android:id="@+id/grade_rec_view_empty"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+            android:id="@+id/grade_rec_view_empty_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/empty_view"
+            android:layout_centerInParent="true"/>
+      <!--  <TextView
+                android:id="@+id/grade_rec_view_empty_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Brak ocen">
+        </TextView>-->
+    </RelativeLayout>
+</LinearLayout>
